@@ -1,0 +1,183 @@
+The Hindu Net Desk
+ Gujarat 2017 carries an additional layer of importance: whether for the Congress or the BJP, a win or a loss will cast a long shadow until the summer of 2019. Click here to see live results of Gujarat elections 2017 This is what happened in 2012 and 2014 as well: The so-calledGujarat model of development was an important part of the BJPs campaign in the 2014 Lok Sabha election. To say that the Gujarat Assembly election of 2012 had a huge bearing on the parliamentary election that followed less than two years later would be no exaggeration. Here's how Gujarat voted in 2012 and 2014. (Best viewed on iPad and larger screens) 
+
+
+
+.c0,.hidden{display:none}.showtooltip,.showtooltipPie{position:absolute;z-index:10000;background-color:#fff;color:#333;font-size:.95em;padding:5px;margin:60px 0 0 20px;border:1px solid #ccc}.showtooltip b,.showtooltipPie b{font-weight:700}.emptyparty,.u{fill:#fff}.gpp{fill:#5a469d}.jdu{fill:#eb4d4c}.election-viz{width:920px;background-color:#D5E8EC;height:415px!important;padding:15px;margin-bottom:15px}.viz-footer p{line-height:0}.pull-left,.pull-right{float:left}#custom-search-input{margin-left:10px}.table-cont{height:auto;min-height:195px;padding:10px;overflow-x:hidden;overflow-y:auto}@media (max-width:1599px) and (min-width:1023px){.election-viz{height:340px!important;}}@media (max-width:1022px) and (min-width:768px){.election-viz{height:825px!important}}@media (max-width:767px) and (min-width:1px){.viz-footer{margin-top:10px;padding:10px}.election-viz{height:740px!important;}}ul#ui-id-1{top:44px;left:348px}.source p{font-size:.9em;margin: 0 0 10px 0px !important;}div#gujarat-viz-2017{min-height:420px}.showtooltip span{display:block}
+
+
+
+
+2014 Lok Sabha Election Assembly Segments
+
+
+2012 - Assembly Constituencies
+
+
+
+
+
+ Source: ECI Website
+
+
+
+
+
+var yearWiseDataMap = {};
+var years = [2014, 2012];
+$(document).ready(function () {
+var gujarat_data_2014 = {
+htmlelement: "#gujarat-viz-2014",
+data: appURL() + "static/content/election-results/dec-2017/gujarat-2014.json",
+year: "2014"
+};
+var gujarat_data_2012 = {
+htmlelement: "#gujarat-viz-2012",
+data: appURL() + "static/content/election-results/dec-2017/gujarat-2012.json",
+year: "2012"
+};
+var margin = {
+top: 50,
+left: 50,
+right: 50,
+bottom: 50
+},
+width = 500 - margin.left - margin.right,
+height = 400 - margin.top - margin.bottom,
+pi = Math.PI,
+radius = width / 2,
+partyShortCodesList = {
+"Total": "Total",
+"Independent": "Ind",
+"Others": "Others",
+"SP+": "SP+",
+"NDA": "NDA",
+"Maharashtrawadi Gomantak": "MGP",
+"MGP+": "MGP+",
+"Left Alliance": "Left",
+"Communist Party of India": "CPI",
+"Communist Party of India (Marxist)": "CPI(M)",
+"Communist Party of India (Marxist-Leninist)": "CPI(ML)",
+"All India Majlis-e-Ittehad-ul Muslimeen": "AIMIM",
+"Revolutionary Marxist Party of India": "RMPI"
+};
+function map_function(map_settings) {
+// Global variables
+// Create SVG canvas with responsive resizing
+var svg = d3.select(map_settings["htmlelement"])
+.append("svg")
+.attr("viewBox", "0 0 " + width + " " + height)
+.attr("preserveAspectRatio", "xMinYMin")
+.append("g")
+.attr("class", "data" + map_settings["year"])
+// Add a tooltip to visualization
+var tooltip = d3.select('body').append('div')
+.attr('class', 'hidden showtooltip')
+.attr('id', "tooltip" + map_settings["year"])
+// queue and read the topojson, json data file //data: appURL() + "static/content/election-results/dec-2017
+d3.queue().defer(d3.json, appURL() + "static/content/election-results/dec-2017/gujarat_topo.json").defer(d3.json, map_settings.data).await(render_map)
+var projection = d3.geoMercator()
+.scale(3000)
+.center([71.5, 22.5])
+.translate([width / 2, height / 2])
+var geoPath = d3.geoPath()
+.projection(projection)
+function render_map(error, mapshape, mapdata) {
+var c = topojson.feature(mapshape, mapshape.objects.collection).features;
+var dataMap = {};
+mapdata.forEach(function (d) {
+dataMap[d.constNo] = d;
+});
+yearWiseDataMap[map_settings["year"]] = dataMap;
+function mouseout_function(d) {
+var constinfo = dataMap[d.properties.AC_NO];
+d3.selectAll('.showtooltip').classed('hidden', true);
+d3.selectAll(".constituency").attr("fill-opacity", 1)
+}
+var fill_function = function (d) {
+d3.select(this).attr('fill', "white")
+}
+var class_function = function (d) {
+var constinfo = dataMap[d.properties.AC_NO];
+var className = "constituency ";
+if (constinfo !== undefined) {
+className += ("c" + constinfo.constNo + " ")
+// className += constinfo.leadingParty.replace(/[^a-zA-Z ]/g, "").toLowerCase()
+if (constinfo.leadingParty == "") {
+className += "emptyparty ";
+className += ("c" + d.properties.AC_NO);
+} else {
+className += constinfo.leadingParty.match(/\b(\w)/g).join("").replace(/[^a-zA-Z ]/g, "").toLowerCase()
+}
+} else {
+className += "emptyparty ";
+className += ("c" + d.properties.AC_NO);
+}
+return className;
+} // end of class_function
+svg.selectAll(".constituency")
+.data(c)
+.enter().append("path")
+.attr("d", geoPath)
+.attr('class', class_function)
+.attr('fill', "white")
+.attr('stroke', "#e8e8e8")
+.attr('stroke-width', "0.2")
+.attr('stroke-opacity', "0.5")
+.on('mouseover', mousemove_function)
+.on('mouseout', mouseout_function)
+} // render_map
+} // map_function
+map_function(gujarat_data_2014);
+map_function(gujarat_data_2012);
+}); 
+
+function mousemove_function(d) {
+// console.log(d)
+if (d === undefined) {
+alert("No data available");
+return false;
+}
+var tooltips = d3.selectAll('.showtooltip');
+// get paths from all maps
+d3.selectAll(".constituency")
+.attr("fill-opacity", 0.2)
+d3.selectAll('.c' + d.properties.AC_NO)
+.attr("fill-opacity", 1)
+.each(function (d, i) {
+var pos = this.getBoundingClientRect();
+var winPos = window.scrollY;
+// operate on appropriate tooltip
+var map = yearWiseDataMap[years[i]];
+var constinfo = map[d.properties.AC_NO];
+var html = "";
+if (constinfo !== undefined) {
+html = "<span><b>Constituency Name</b>: " + constinfo.constituency + "</span>";
+html = html + "<span><b>Leading Candidate (party)</b>: " + constinfo.leadingCandidate + "</span>";
+if (constinfo.leadingParty != "") {
+html = html + "<span> (" + constinfo.leadingParty + ") </span>";
+}
+html = html + "<span><b>Trailing Candidate (party)</b>: " + constinfo.trailingCandidate + "</span>";
+if (constinfo.trailingParty != "") {
+html = html + " <span>(" + constinfo.trailingParty + ")<span>";
+}
+html = html + "<span><b>Margin</b>: ";
+if (constinfo.margin != "" && constinfo.margin != "0") {
+html = html + constinfo.margin;
+}
+html = html + "</span>";
+} else {
+html = "<p>" + d.properties.AC_NAME + "</p>";
+}
+d3.select(tooltips.nodes()[i]).classed('hidden', false)
+.html(html)
+.style("left", (pos.x + pos.width / 2) + "px")
+.style("top", ((pos.y + winPos) - pos.height / 2) + "px");
+});
+}
+
+
+
+
+
+  Source: ECI Website 

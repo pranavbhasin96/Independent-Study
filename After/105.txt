@@ -1,0 +1,225 @@
+Special Correspondent
+ In what is regarded as a ringing endorsement of Prime Minister Narendra Modi and a victory that could influence the outcome of the 2019 Lok Sabha election, voters handed the Bharatiya Janata Party a three-fourths majority in both Indias most populous State, Uttar Pradesh, and the neighbouring hill State of Uttarakhand. The BJP took 312 of the 403 Assembly seats in U.P., and its allies another 13 seats; in Uttarakhand, it won 57 of the 70 seats at stake. In Punjab, however, anti-incumbency sentiment finally sank the Akali Dal-BJP combination, and returned the Congress to power after a gap of 10 years, with 77 of the 117 seats. Goa and Manipur delivered fractured mandates as the Congress fell short of the halfway mark in both States. In Goa, the party tallied 17 seats in the 40-member Assembly, with the BJP close behind at 13. 
+
+
+
+
+
+
+
+
+
+
+Last updated: 
+ Source: ECI Website
+
+ 
+
+
+
+var partyShortCodesList = {
+"Total" : "Total",
+"Independent" : "Ind",
+"Others" : "Others",
+"SP+" : "SP+",
+"NDA" : "NDA",
+"MGP+" : "MGP+",
+"MGP+" : "MGP+",
+"Left Alliance" : "Left",
+"Communist Party of India" : "CPI",
+"Communist Party of India (Marxist)" : "CPI(M)",
+"Communist Party of India (Marxist-Leninist)":"CPI(ML)",
+"All India Majlis-e-Ittehad-ul Muslimeen" : "AIMIM",
+"Revolutionary Marxist Party of India" : "RMPI"
+};
+$(function() {
+// Global variables
+var margin = { top: 50, left:50, right:50, bottom:50 },
+height = 500 - margin.top - margin.bottom,
+width = 500 - margin.left - margin.right,
+pi = Math.PI,radius = width / 2;
+// Add a SVG with responsive set up
+var svg = d3.select("#map")
+.append("svg")
+.attr("viewBox", "0 0 " + width + " " + height)
+.attr("preserveAspectRatio", "xMinYMin");
+// Add a tooltip to visualization
+var tooltip = d3.select('body').append('div')
+.attr('class', 'hidden tooltip');
+//==========================================
+// Executes script based on window size
+if($(window).width() >= 767){
+// read the topojson file & read the json based data file
+d3.queue()
+.defer(d3.json, appURL() + "static/content/election/uttarpradesh-ac.json")
+.defer(d3.json, appURL() + "static/content/election-results/uttar_pradesh_data.json")
+.await(ready)
+// create a new projection using geoMercator and center it using translate and zoom in a certain amount
+var projection = d3.geoMercator()
+.translate([-3720, 1565])
+.scale(2780)
+// create a path using geo path using the new projection
+var path = d3.geoPath()
+.projection(projection)
+function ready (error, up, data) {
+// Create an object (ie hash map) of your data by acno from up_data
+var dataMap = {};
+data.forEach(function(d){
+//refer to scrapped info
+dataMap[d.constNo] = d;
+})
+// Extract required topojson
+var constituency = topojson.feature(up, up.objects.collection).features
+// Runs function path mouseover
+var topoName = function(d) {
+return d.properties.AC_NAME; } // end of mousemove_function// Runs function path mouseover
+var mousemove_function = function(d) {
+//d.property refer to topojson
+var fd = dataMap[d.properties.AC_NO];
+//refer to scrapped info
+var html = "";
+if(fd !== undefined) {
+html = "Constituency Name: " + fd.constituency + "<br> Leading Candidate (party): " + fd.leadingCandidate + " (" + fd.leadingParty + ") <br> Trailing Candidate (party): " + fd.trailingCandidate + " (" + fd.trailingParty + ")<br> Margin: " + fd.margin;
+} else {
+html = "Constituency Name: " + d.properties.AC_NAME; } tooltip.classed('hidden', false)
+.html(html)
+.style("left", d3.event.pageX + "px")
+.style("top", d3.event.pageY + "px") } // end of mousemove_function
+var class_function = function(d){
+//d.property refer to topojson
+var fd = dataMap[d.properties.AC_NO];
+var className = "constituency ";
+if(fd !== undefined) {
+//refer to scrapped info
+// className += fd.leadingParty.toLowerCase();
+className += fd.leadingParty.match(/\b(\w)/g).join("").toLowerCase();
+} else {
+className = "empty-color";
+}
+return className;
+} // end of class_function
+var mouseout_function =function(d){
+d3.select(this).classed("selected", false)
+tooltip.classed('hidden', true)
+} // end of mousemove_function
+// Add path for each Constituency
+svg.selectAll(".constituency")
+.data(constituency)
+.enter().append("path")
+.attr("class", "constituency")
+.attr("title", topoName)
+.attr("d", path)
+.attr('class', class_function)
+.on('mouseover', mousemove_function)
+.on('mouseout', mouseout_function)
+} // function ready
+};
+//==========================================
+// SEMI DONUT SECTION - set up the arc generator
+var arc = d3.arc()
+.outerRadius(radius - 10)
+.innerRadius(100);
+// set up the pie generator
+var pie = d3.pie()
+.sort(null)
+.value(function(d) {
+return d.total;
+})
+.startAngle(-90 * (pi/180))
+.endAngle(90 * (pi/180));
+// add svg to Canvas
+var svgPie = d3.select("#pie")
+.append("svg")
+.attr('viewBox','0 0 '+Math.min(width,height) +' '+ Math.min(width,height) / 2 )
+.append("g")
+.attr("transform", "translate(" + Math.min(width,height) / 2 + "," + Math.min(width,height) / 2 + ")");
+d3.json(appURL() + "static/content/election-results/uttar_pradesh_voteshare.json", function(error, data) {
+if (error) throw error;
+var g = svgPie.selectAll(".arc")
+.data(pie(data.piechart))
+.enter()
+var mouseoverPie_function = function(d) {
+//refer to scrapped info
+htmlPie = "Party: " + d.data.party + "<br> No. of Seats: " + d.data.total;
+tooltip.classed('hidden', false)
+.html(htmlPie)
+.style("left", d3.event.pageX + "px")
+.style("top", d3.event.pageY + "px")
+} // end of mouseoverpie_function
+var classPie_function = function(d) {
+//refer to scrapped Pie info
+var str = d.data.party;
+var matches = str.match(/\b(\w)/g);
+var acronym = matches.join('');
+return acronym.replace(/[- )(]/g,'').toLowerCase();
+} // end of classPie_function
+var mouseoutPie_function = function(d){
+d3.select(this).classed("selected", false)
+tooltip.classed('hidden', true)
+} // end of mouseoutPie_function
+g.append("path")
+.attr("d", arc)
+.attr("class", classPie_function)
+.on('mouseover', mouseoverPie_function)
+.on('mouseout', mouseoutPie_function)
+function tabulate(data, columns) {
+var table = d3.select('div#jsontable-up').append('table')
+var thead = table.append('thead')
+var	tbody = table.append('tbody');
+// append the header row
+thead.append('tr')
+.selectAll('th')
+.data(columns).enter()
+.append('th')
+.text(function (column) {
+return column;
+});
+// create a row for each object in the data
+var rows = tbody.selectAll('tr')
+.data(data)
+.enter()
+.append('tr')
+.attr("class", function(d){
+var str = d.party;
+var matches = str.match(/\b(\w)/g);
+var acronym = matches.join('');
+return acronym.replace(/[- )(]/g,'').toLowerCase();
+});
+// create a cell in each row for each column
+var cells = rows.selectAll('td')
+.data(function (row) {
+return columns.map(function (column) {
+if(column == "party"){
+var info = row[column]
+if(partyShortCodesList[info] !== undefined) {
+row[column] = partyShortCodesList[info];
+} else {
+row[column] = row[column].match(/\b(\w)/g).join("");
+}
+} //if column == party
+return {column: column, value: row[column]};
+}); //return columns.map
+})
+.enter()
+.append('td')
+.text(function (d) { return d.value; })
+cells.append("span")
+return table;
+}
+// render the table(s)
+tabulate(data.table, ['party', 'won', 'leading', 'total']); // 2 column table
+$(".updated-time").append(data.lastUpdatedTime);
+}); //funtion for pie chart
+}); // document ready function
+
+
+
+
+ Last updated:   Source: ECI Website In Manipur, the Congress won 28 of the 60 seats, three short of a majority; the BJP managed only 21 seats. Smaller regional parties and independents will decide who gets to form the government in the two States. 
+
+
+
+
+
+
+ The Prime Ministers personal investment in the seven-phase elections in U.P., during which he addressed 23 public meetings, brought rich dividends to the BJP that had won just 47 seats in the 2012 Assembly elections. The results were a virtual repeat of the BJPs 2014 Lok Sabha performance, where the party had won as many as 71 seats. The ruling Samajwadi Party, which had 224 seats in the outgoing Assembly, was reduced to 47, the Bahujan Samaj Party to 19 and the Congress to a paltry seven seats. This is a victory for the Prime Ministers corruption-free governance and his pro-poor policies, party president Amit Shah said after the poll trends became clear on Saturday. On his part, Mr. Modi tweeted, Am overjoyed that BJP has received unprecedented support from all sections of society. Huge support from the youth is gladdening. Both Mr. Modi and Mr. Shah made special mention of the support the party had received in Manipur and Goa, underlining that they favoured forming governments in both States. Congress spokesman R.S. Surjewala too indicated that his party would form governments in Manipur and Goa. Our victories in Punjab, Manipur and Goa are a fitting answer to those who promoted the idea of a Congress-free India. The Aam Aadmi Party, which fancied its chances in Punjab, won 20 seats with a vote share of just under 24%, while the Akali Dal won 15 and the BJP just three seats. Soon after the U.P. results became known, Bahujan Samaj Party president Mayawati lashed out at what she claimed was the manipulation of Electronic Voting Machines (EVMs). Ms. Mayawatis demand for an inquiry into EVM use received support from outgoing U.P. Chief Minister and Samajwadi Party president Akhilesh Yadav. Addressing a press conference in Lucknow, Mr. Yadav defended his alliance with Rahul Gandhis Congress, saying it had benefited the SP. He also indicated that the SP wanted to continue the alliance with the Congress since it brought together two young leaders  himself and Rahul Gandhi.

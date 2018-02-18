@@ -1,0 +1,56 @@
+Special Correspondent
+ On a day when Prime Minister Narendra Modi and Congress vice-president Rahul Gandhi were addressing multiple rallies in Gujarat, the Patidar Anamat Andolan Samiti (PAAS) leader Hardik Patel organised a show of strength, with massive crowds turning up in Morbi and Rajkot on Wednesday. In Morbi, his meeting was just 30 km away from PM Modis rally. Thousands of people turned up at the meeting to demand quota and discuss other issues, Mr. Patel tweeted, and posted picture of the crowd. 
+
+
+
+
+
+Supporters at Patidar Anamat Andolan Samiti leader Hardik Patels rally in Rajkot on November 29, 2017. 
+| Photo Credit: Vijay Soneji 
+
+
+
+
+
+ Similarly in Rajkot, he addressed a massive rally on ring road area, which is part of Rajkot West assembly constituency from where Chief Minister Vijay Rupani is contesting the assembly polls. In both places, Mr. Patel exhorted his community members to vote out the BJP, which committed atrocities on the Patidars during the quota agitation.  
+
+
+
+Hardik rally a crowd puller
+
+
+
+
+
+
+jwplayer.key="ufXerhbUhy44DsV1xEas/0BgXAMXg11AmfXrcRK/2bbnqQvk";
+
+
+
+jwplayer('jwplayer_21191395').setup({
+// URL to the video file
+file: 'http://video.thehindu.com/thehindu/8019Hardik-Patel-Rally.mp4',	// URL to the image that should be shown before the video is started
+image: 'http://www.thehindu.com/multimedia/article21191394.ece/ALTERNATES/FREE_660/hardik%20patel%20rallyjpeg',
+title: '',
+autostart: 'false',
+mute: true,
+advertising: {
+client: "vast",
+tag: "",
+companiondiv: {
+id: "banner",
+width: 728,
+height: 90
+}	},
+type: 'mp4',
+controls: true,
+aspectratio: '16:9'	});
+player.on('error', function() {
+player.load({
+file:"//content.jwplatform.com/videos/7RtXk3vl-52qL9xLP.mp4",
+image:"//content.jwplatform.com/thumbs/7RtXk3vl-480.jpg"
+});
+player.play();
+});
+
+

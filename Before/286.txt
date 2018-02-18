@@ -1,0 +1,46 @@
+Sruthi Radhakrishnan
+ The 53 three constituencies that will go to the polls in the fourth phase of Uttar Pradesh Assembly elections, have a combined 680 candidates. Of these, 189 are crorepatis, with the richest candidate being an independent contesting from Chail, reports election watchdog Association for Democratic Reforms. Subhash Chandra has declared assets of over Rs. 70 crore. Nand Gopal Gupta Nandi of the BJP, contesting from Allahabad South, and Mohammed Masroor Shaikh of the BSP, from Phulpur, each have over Rs. 57 crore and Rs. 32 crore. 
+
+
+
+.thsp-pie-chart {width:100%; max-width:900px; height:440px;}
+.thsp-bar-chart {width:100%; max-width:900px; height:600px;}
+.thsp-group-bar-chart{width:100%; max-width:900px; height:660px;}
+@media (max-width: 1599px){
+.thsp-pie-chart {width:100%;max-width:660px; height:330px;}
+.thsp-bar-chart {width:100%; max-width:660px; height:457px;}
+.thsp-group-bar-chart{width:100%; max-width:660px; height:500px;}
+}
+@media (max-width: 767px) and (min-width: 1px){
+.thsp-pie-chart {width:100%;max-width:300px; height:450px;margin-left:20px;}
+.thsp-bar-chart {width:100%; max-width:300px; height:260px; margin-left:20px;}
+.thsp-group-bar-chart{width:100%; max-width:300px; height:290px;}
+}
+
+
+
+
+ Indrakar Mishra of the Samajwadi Janata Party (Rashtriya) has declared that he has zero assets. And Kailash of the Rashtriya Viklang Party, standing at Orai has Rs. 1,000. 
+
+
+
+
+
+ One hundred and sixteen candidates have criminal cases against them, and 95 face serious criminal cases. Twenty-one constituencies in this phase have three or more candidates facing criminal charges. Allahabad West, Manikpur and Hamirpur each have five such candidates, and Mehroni, Jahanabad, Rampur Khas, Pratapgarh, Ayah Shah and Allahabad South have four each. 
+
+
+
+
+
+ Sixty of the 680 candidates are women. The number of women who have contested in all four phases remains at 10 per cent, and only one person of the third gender has contested so far. 
+
+
+
+
+
+ There are five doctoral degree holders in this phase. One hundred and thirty-eight are post-graduates, 224 are graduates, 268 have some secondary school education, 36 are literate, and six have declared themselves illiterate. 
+
+
+
+
+

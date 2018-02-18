@@ -1,0 +1,41 @@
+Sruthi Radhakrishnan
+ Fifty-two constituencies and 617 candidates were involved in the fifth phase of the Uttar Pradesh Assembly elections. Twenty-twoof these constituencies had three or more candidates with criminal cases against them. According to data from election watchdog Association for Democratic Reforms, of the 612 candidates they analysed, 117 have declared criminal charges, while 96 have serious criminal charges. The Bahujan Samaj Party led the tally with 23 candidates with criminal cases and 19 with serious criminal cases.  
+
+
+.thsp-pie-chart {width:100%; max-width:900px; height:440px;}
+.thsp-bar-chart {width:100%; max-width:900px; height:600px;}
+.thsp-group-bar-chart{width:100%; max-width:900px; height:660px;}
+@media (max-width: 1599px){
+.thsp-pie-chart {width:100%;max-width:660px; height:330px;}
+.thsp-bar-chart {width:100%; max-width:660px; height:457px;}
+.thsp-group-bar-chart{width:100%; max-width:660px; height:500px;}
+}
+@media (max-width: 767px) and (min-width: 1px){
+.thsp-pie-chart {width:100%;max-width:300px; height:450px;margin-left:20px;}
+.thsp-bar-chart {width:100%; max-width:300px; height:260px; margin-left:20px;}
+.thsp-group-bar-chart{width:100%; max-width:300px; height:290px;}
+}
+
+
+
+
+ In a first for these Assembly elections, no candidate has declared zero assets. 168 of the612 candidates are crorepatis. The richest is a BJP candidate, Ajay Pratap Singh contesting from Colonelganj, with over Rs. 49 crore. The Congress Ameeta Singh from Amethi and BJPs Mayankeshwar Sharan Singh from Tiloi, with over Rs. 36 crore and Rs. 32 crore respectively, take the next two positions.  
+
+
+
+
+ Ramesh Kumar, a candidate from the Uttar Pradesh Republican Party, contesting at Alapur has Rs. 1,000 to his name. Until the fifth phase, of the 3,660 candidates who have been analysed, 618 have criminal cases, 500 have serious criminal cases, and 1,165 are crorepatis. 105 of the 314 constituencies have three or more candidates facing criminal charges.  
+
+
+
+
+ The gender split for this phase too does not change the way representation has been in these elections. Only 43 women are contesting. This brings it to 338 female candidates so far.  
+
+
+
+
+ 160 graduates and 114 post-graduates are contesting in the fifth phase. 266 candidates have some secondary school education, while nine are illiterate. There are 11 doctoral degree holders in this phase.  
+
+
+
+

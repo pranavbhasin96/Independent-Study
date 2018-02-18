@@ -1,0 +1,59 @@
+Sruthi Radhakrishnan
+ As the BJP got a sweeping mandate with 312 seats in the recently concluded Uttar Pradesh Assembly elections, data analysis by election watchdog Association for Democratic Reforms shows that 80% of MLAs in the new Assembly are crorepatis. The MLAs with the most assets are the BSPs Shah Alam Urf Guddu Jamali, from Mubarakpur, with over Rs. 118 crore; Vinayshankar from the Chillupar constituency with over Rs. 67 crore; and Rani Pakshalika Singh of the BJP with over Rs. 58 crore. 
+
+
+
+.thsp-pie-chart {width:100%; max-width:900px; height:440px;}
+.thsp-bar-chart {width:100%; max-width:900px; height:600px;}
+.thsp-group-bar-chart{width:100%; max-width:900px; height:660px;}
+@media (max-width: 1599px){
+.thsp-pie-chart {width:100%;max-width:660px; height:330px;}
+.thsp-bar-chart {width:100%; max-width:660px; height:457px;}
+.thsp-group-bar-chart{width:100%; max-width:660px; height:500px;}
+}
+@media (max-width: 767px) and (min-width: 1px){
+.thsp-pie-chart {width:100%;max-width:300px; height:450px;margin-left:20px;}
+.thsp-bar-chart {width:100%; max-width:300px; height:260px; margin-left:20px;}
+.thsp-group-bar-chart{width:100%; max-width:300px; height:290px;}
+}
+
+
+
+
+ While the earlier Assembly saw 271 MLAs or 67% crorepatis, this time there has been a jump of 13 percentage points. Ajay Kumar Lallu of the Congress from Tamkuhi Raj; Dhananjay from the BJP, elected from Belthara Road; and Manisha, also of the BJP from Rath, are the MLAs with the least assets, i.e., lesser than Rs. 10 lakh. 
+
+
+
+
+
+ Of the 92 re-elected MLAs, the average assets stands at Rs. 8..62 crore. This is an 87% increase from the average assets of re-elected MLAs in 2012. Seventy-nine % of newly elected BJP MLAs are crorepatis, while other parties have a higher percentage of crorepatis  the SP has 85%, the BSP 95%, and the Congress 91%. 
+
+
+
+
+
+ Of the 402 MLAs who have been analysed, 143 have criminal cases against them and 107 face serious criminal charges. Back in 2012, 189 MLAs had criminal cases and 98 serious criminal cases. 
+
+
+
+
+
+ One hundred and fourteen of 312 BJP MLAs have criminal charges against them and 83 have serious charges. Ashok Kumar Rana, elected from Dhampur, has been charged with a crime against women. 
+
+
+
+
+
+ Seventeen MLAs in the new Assembly are doctoral degree holders, 110 post-graduates and 163 graduates. One hundred and one have some secondary school education and two have declared themselves illiterate. The BJP has 227 graduates, the SP 33, the BSP 16 and the Congress five. 
+
+
+
+
+
+ Keeping in tune with the dismal gender representation in the elections, only 10% of the elected MLAs are women. 
+
+
+
+
+
+ The youngest legislator is 25-year-old Kushagra Sagar of the BJP, who won from Bisauli. The oldest MLAs too belong to the BJP  Rajesh Agarwal from the Bareilly Cantonment and Dalveer Singh from Barauli. Both are 73 years old.

@@ -1,0 +1,41 @@
+Sruthi Radhakrishnan
+ The second phase of the Uttar Pradesh elections, according to an analysis by election watchdog Association for Democratic Reforms, has 256 crorepati candidates contesting. The richest candidate is from the Bahujan Samaj Party. Nawab Kazim Ali Khan, standing from Suar in Rampur, has declared assets worth more than Rs. 97 crore. The Rashtriya Parivartan Dals Umlesh Yadav, contesting from Sahaswan constituency comes second with over Rs. 55 crore to his name. The third richest candidate too is from the BSP. Mohammed Nasir has over Rs. 38 crore assets.  
+
+
+.thsp-pie-chart {width:100%; max-width:900px; height:440px;}
+.thsp-bar-chart {width:100%; max-width:900px; height:600px;}
+.thsp-group-bar-chart{width:100%; max-width:900px; height:660px;}
+@media (max-width: 1599px){
+.thsp-pie-chart {width:100%;max-width:660px; height:330px;}
+.thsp-bar-chart {width:100%; max-width:660px; height:457px;}
+.thsp-group-bar-chart{width:100%; max-width:660px; height:500px;}
+}
+@media (max-width: 767px) and (min-width: 1px){
+.thsp-pie-chart {width:100%;max-width:300px; height:450px;margin-left:20px;}
+.thsp-bar-chart {width:100%; max-width:300px; height:260px; margin-left:20px;}
+.thsp-group-bar-chart{width:100%; max-width:300px; height:290px;}
+}
+
+
+
+
+ Meanwhile, three independents  Pranshu Joshi, Rakhi Rani and Vandna Gupta  have declared that they have zero assets. Madhubala, a candidate belonging to the Sarvajan Kalyan Loktantrik Party has only Rs. 1,000 worth assets.  
+
+
+
+
+ Of the 721 candidates contesting in phase II, 107 have criminal cases against them, and 84 have serious criminal cases in their names. Of the constituencies in this phase, Nawabganj in Bareilly district, Moradabad Nagar, and Amroha have each four candidates with criminal cases against them. 15 have cases of attempt to murder registered against them.  
+
+
+
+
+ 69 of 721 candidates are women, keeping the skewed gender ratio intact. At the end of the second phase, only 139 female candidates contested. There has been only one person of the third gender.  
+
+
+
+
+ This phase sees 6 candidates with doctoral degrees contesting. 43 per cent are graduates, while 39 per cent have professed to some secondary school education. 11 candidates are illiterate.  
+
+
+
+

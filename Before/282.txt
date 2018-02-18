@@ -1,0 +1,41 @@
+Sruthi Radhakrishnan
+ Of the 813 candidates in Phase III of the Uttar Pradesh Assembly election who were analysed by election watchdog Association for Democratic Reforms, 110 have criminal cases against them, and 82 of them face serious criminal cases. The BJP and the BSP have the highest number of candidates with cases against them  21 each. Twenty-one constituencies have three or more candidates facing criminal charges. Bangermau, Purwa, Lucknow West, Ram Nagar, Mainpuri, Maholi and Balamau each have four candidates facing criminal charges.  
+
+
+.thsp-pie-chart {width:100%; max-width:900px; height:440px;}
+.thsp-bar-chart {width:100%; max-width:900px; height:600px;}
+.thsp-group-bar-chart{width:100%; max-width:900px; height:660px;}
+@media (max-width: 1599px){
+.thsp-pie-chart {width:100%;max-width:660px; height:330px;}
+.thsp-bar-chart {width:100%; max-width:660px; height:457px;}
+.thsp-group-bar-chart{width:100%; max-width:660px; height:500px;}
+}
+@media (max-width: 767px) and (min-width: 1px){
+.thsp-pie-chart {width:100%;max-width:300px; height:450px;margin-left:20px;}
+.thsp-bar-chart {width:100%; max-width:300px; height:260px; margin-left:20px;}
+.thsp-group-bar-chart{width:100%; max-width:300px; height:290px;}
+}
+
+
+
+
+ Anup Kumar Gupta, an SP candidate contesting from Maholi in Sitapur district, is the richest with more than Rs. 42 crore. Ajay Kapoor of the Congress and Seema Sachan of the SP come second and third with over Rs. 31 crore and Rs. 29 crore respectively.  
+
+
+
+
+ Only two candidates  Mod Akram Khan from Lucknow West, and Suresh Chandra from Laharpur have zero assets to their names. Vijay Gautam, an SC candidate for Ghatampur has Rs. 1,000.  
+
+
+
+
+ The third phase has a slightly better gender representation than the previous two, with 96 women contesting. So far, only 10 per cent of the candidates are women.  
+
+
+
+
+ This phase saw 10 illiterate candidates in the fray, and 43 who declared themselves literate. 320 have some secondary school education, 248 are graduates, 158 are post-graduates and there are 12 doctoral degree holders.  
+
+
+
+

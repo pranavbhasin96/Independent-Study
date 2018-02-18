@@ -1,0 +1,109 @@
+Omar Rashid
+ A leader sidelined by his ambitious nephew desperately tries to restore his battered stature. The location is Atiraajpur, a dusty village of 1,000 voters, mostly Yadavs, 2 km from Saifai, the ancestral village of the States ruling family. An audience of around 250 people  dhoti-clad old men, tech-savy youth and women in colourful saris  have their eyes and ears focused attentively on the large Shiva temple. At the centre of it, holding the microphone, is Shivpal Yadav, wearing his trademark white kurta and navy blue half-jacket. Except for a few local Samajwadi Party (SP) leaders close to him, and a loyalist MLC, no big leader is in sight, which is reflective of the political loneliness brought upon him after the coup by his nephew and U.P. Chief Minister Akhilesh Yadav. The hurt, isolation and craving for vengeance is clear in his speech. The crux of his emotional appeal to voters is to recall his tenure as the PWD (Public Works Department) minister, a post that was snatched away from him by Mr. Akhilesh Yadav. We [brother and SP founder Mulayam] were together in the struggle [for the party]. My department created the most number of jobs  13,000 jobs were created for the post of lekhpal. We curbed the sale of illicit liquor and acted against land grabbers. The situation [his shunting] that we are seeing today was borne out of these actions. But did I do anything wrong? he asks. The villagers respond with a resounding, Bilkul nahi! (Absolutely not!) This is followed by loud shouts of Shivpal Singh Yadav zindabad. He is still referred to as mantriji. Mr. Shivpal regains his composure and continues. More work could have been done in the last few months [during which he was removed as minister]. But even then we did not allow any deficiency in roads, water or electricity. In one year, I built 120 tubewells in the constituency. But nobody considers this work, he says with a hint of sarcasm. Mr. Shivpal then lambasts the Modi government over the demonetisation and the failure to create jobs as promised. If elected again, he promises jobs to the youth in every family in the constituency. The audience erupts again, this time with slogans of Sher-e-Hind, Shivpal Singh. 
+
+
+
+
+
+
+
+
+
+Shivpal Singh Yadav interacting with people at Atirajpur.
+
+
+
+
+
+
+
+A poster of Samajwadi Party patriarch Mulayam Singh Yadav at his native village Saifai from where his younger brother and former PWD Minister Shivpal Singh Yadav is contesting, in the Jaswantnagar constituency.
+
+
+
+
+
+
+
+Samajwadi Party candidate Shivpal Singh Yadav on way to campaign from Saifai.
+
+
+
+
+
+
+
+Shivpal Singh Yadav interacting with people at Atirajpur village.
+
+
+
+
+
+
+
+In the Jaswantnagar constituency of Etawah district.
+
+
+
+
+
+
+
+Supporters Shivpal Singh Yadav campaigning in villages belonging to the Jaswantnagar constituency.
+
+
+
+
+
+
+
+In Jaswantnagar constituency.
+
+
+
+
+
+
+
+Shivpal Singh Yadav during his campaigning.
+
+
+
+
+$(document).ready(function(){
+$('#teaser-14269002-17282452-slideshow').slick({
+infinite: true,
+slidesToShow: 1,
+slidesToScroll: 1,
+autoplay: false,
+prevArrow: '<div class="pc-prev "></div>',
+nextArrow: '<div class="pc-next"></div>',
+responsive: [
+{
+breakpoint: 1599,
+settings: {
+centerPadding: '40px'
+}
+},
+{
+breakpoint: 1023,
+settings: {
+centerPadding: '57px'
+}
+},
+{
+breakpoint: 767,
+settings: {
+slidesToShow: 1,
+centerMode: false,
+centerPadding: '0px'
+}
+}
+]
+});
+});
+
+
+
+
+ Mr. Shivpal does not lose his smile. But you need to have power to create jobs. Without power, we cannot make any announcements or implement anything, he reminds his voters. Jaswant Nagar is one of the Assembly segments in the Mainpuri Lok Sabha seat and buried in the Yadav stronghold. Mulayam Singh won the seat for the first time in 1967, winning it for eight terms  he lost on two occasions  before leaving it for his brother Shivpal in 1996. Since then, Mr. Shivpal has won the seat four times. His best performance came in 2012 when he got a mammoth 1.33 lakh votes, beating his nearest opponent, the Bahujan Samaj Partys (BSP) Manish Yadav Pataray by over 80,000 votes. This time, too, victory looks certain. No opponent can think to challenge the Yadav familys clout in their backyard. Though Shivpal is also sure of his victory, a mere win is not good enough for him. He wants to register his presence like never before, at least in his territory. His close aides say his aim is to increase his victory margin. Shivpalji is aiming to have the biggest win on any seat in the State, an aide says. That is the reason why, for the last 20 days, he has been camping in his constituency, addressing around 15 meetings daily, going from one village to another by road. Atiraajpur was his fourth destination for the day. Mr. Shivpal concludes his speech and walks towards a pandal organised in his honour by the village pradhan. Youth rush to touch his feet and paper chits [parchas] containing applications for sifarish (recommendations) are received by his aides in plenty. Mr. Shivpal is consider a man of action, approachable and with direct connect with his supporters. Sliced papayas and bananas are served to him but chacha, as he is fondly called here, prefers a glass of skimmed milk. I never campaigned yet I won. Never needed to come here, he chuckles as he talks to The Hindu. Last time, I spent three days on campaigning. I just visited the blocks then. There was a helicopter, too. This time, it is by road. In the continued hostility towards Mr. Akhilesh, on his nomination day last week, Mr. Shivpal threatened to form a new party after the elections. His aides say he was merely expressing anger, posturing to remind his nephew of his worth. Will he clarify? We will talk about it. I will talk to Netaji [Mr. Mulayam Singh Yadav] and also the CM. A decision [on forming a party] can be taken then. Let the elections get over, he responds. On January 11, Mr. Mulayam Singh is scheduled to address a rally here. Mr. Shivpal downplays it with a smile. He will come and seek votes. Am I not already doing that? Among the crowd is young Shravan Yadav, who expresses his sympathy for Mr. Shivpal. His dignity was hurt. Akhilesh Yadav got everything in heritage, chacha earned it the hard way. People here still vote in the name of Mulayam Singh and Shivpal Singh, not Akhilesh, says Mr. Shravan. Another Yadav youth, Rahul, chips in to say, Mulayam and Shivpal are like Ram and Lakshman  inseparable. Not just among the Yadavs, Mr. Shivpal has a strong backing among other communities, too, whether the Gupta groundnut seller outside the Saifai police station, the Kashyap sweetmeat shop owner outside the medical college, or the Jatav [Dalit] students across the constituency, the Yadav leader is praised for his work as MLA and minister  building drains, constructing roads, creating jobs, improving irrigation and water supply for rich potato and wheat crops, and providing 24-hours electricity, despite UP being a power deficient State. He is the raja. The Yadav family helps us win our bread. They created opportunities for everybody, says another voter, Arun. The influence of the Yadav family on the landscape of Saifai is self-evident. Roughly four hours away from Lucknow, Saifai, a remote village of around 8,000 people, is a visual utopia even by national standards. Its landscape is dotted with multi-story structures, tar roads, market complexes, guest houses, ATMs, banks, educational institutes, a 2,000-capacity multi-functional theatre, residential apartments, an enviable sporting infrastructure, a Kisan Bazaar market (for farmers to directly sell their produce) and an-all weather swimming complex, all within a radius of five kilometres. Saifai boasts three stadiums  athletics, cricket and the Chandagiram Hockey Complex, which has astro-turf and is affiliated with the Sports Authority of India. Two hospitals cater to the medical needs of not just the local population but also the neighbouring districts. One of them, the UP Rural Institute of Medical Sciences and Research, established during the SPs last rule, offers high-quality, state-of-the-art medical care in neurology, oncology and psychiatry, among other things. The Yadavs property in the village is also significant. They own numerous plots and around 500 bighas of land. Mulayams younger brother and father of MP Dharmendra Yadav, Abhay Ram Yadav (75), keeps out of politics and maintains an agrarian lifestyle in Saifai. Honestly, I would feel humiliated if I had to go around asking for votes, says Abhay Ram, resting on a wooden bed in the outdoors. A few months ago, in the middle of the Akhilesh-Mulayam feud, he criticised Akhilesh as stubborn. Today, as polling day nears, he prefers to avoid the topic. What does he think of Shivpals campaign, and the tension between him and Akhilesh? It is his territory. And the entire family is one. One is a brother and another nephew. They cannot be separated.

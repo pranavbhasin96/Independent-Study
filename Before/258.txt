@@ -1,0 +1,37 @@
+Sruthi Radhakrishnan
+ 15 candidates participating in the first phase of the Uttar Pradesh elections have cases of murder registered against them, an analysis by election watchdog Association for Democratic Reforms shows. This is a phase where 302 of 839 candidates are crorepatis. 42 candidates have cases of attempt to murder against them, in a phase where 17 per cent of all candidates have declared serious criminal cases against them. Overall, 20 per cent of all the candidates, or 168 in this phase have a criminal case registered against them. The wealthiest candidate is Nazir Ahamad of the Congress, who has declared assets worth over Rs. 200 crore. Contesting from Agra South, he faces Zulfiqar Ahmad Bhutto of the BSP and sitting MLA Yogendra Upadhyaya from the BJP. Mr. Ahamad is quite far from the average declared by most candidates, which for this phase stands at Rs. 2.81 crore. Satish Kumar Sharma of the BJP, contesting from Mant in Mathura, comes a distant second with assets worth over Rs. 100 crore. Rani Pakshalika Singh, also of the BJP comes third with over Rs. 50 crore.  
+
+
+.thsp-pie-chart {width:100%; max-width:900px; height:440px;}
+.thsp-bar-chart {width:100%; max-width:900px; height:600px;}
+@media (max-width: 1599px){
+.thsp-pie-chart {width:100%;max-width:660px; height:330px;}
+.thsp-bar-chart {width:100%; max-width:660px; height:457px;}
+}
+@media (max-width: 1599px){
+.thsp-pie-chart {width:100%;max-width:660px; height:330px;}
+.thsp-bar-chart {width:100%; max-width:660px; height:457px;}
+}
+@media (max-width: 767px) and (min-width: 1px){
+.thsp-pie-chart {width:100%;max-width:300px; height:450px;margin-left:20px;}
+.thsp-bar-chart {width:100%; max-width:300px; height:260px; margin-left:20px;}
+}
+
+
+
+
+ An independent candidate from Thana Bhawan, Parvez Ali is the only person who has declared zero assets to his name. Another independent, Ambedkari Hasanuram Ambedkari has stated in his affidavit that he has only Rs. 1,000 in his name.  
+
+
+
+
+ As far as educational qualifications are concerned, 40 per cent of the candidates in this phase are graduates, while around 48 per cent of them have secondary school education. Only 15 candidates have declared themselves to be illiterate.   
+
+
+
+
+ Of the 839 candidates contesting in the first phase, only 70 are women.  
+
+
+
+
